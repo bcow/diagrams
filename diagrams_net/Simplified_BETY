@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-06T17:14:01.236Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36 Edg/91.0.864.59" etag="JtvHsqw9tERZpeUG-7ZQ" version="14.8.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-06T17:25:04.268Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36 Edg/91.0.864.59" etag="haAxRuOQakgDvt8TZlBb" version="14.8.4" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="5624" dy="4117" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -1076,7 +1076,7 @@
           <mxGeometry x="30" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="8DQ1GMw1Qk0WIiFYgqin-2127" value="sitegroups" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fontFamily=Fira Code;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="-3520" y="-1520" width="200" height="160" as="geometry" />
+          <mxGeometry x="-3400" y="-1440" width="200" height="160" as="geometry" />
         </mxCell>
         <mxCell id="8DQ1GMw1Qk0WIiFYgqin-2128" value="" style="shape=partialRectangle;collapsible=0;dropTarget=0;pointerEvents=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Fira Code;" vertex="1" parent="8DQ1GMw1Qk0WIiFYgqin-2127">
           <mxGeometry y="30" width="200" height="30" as="geometry" />
@@ -2140,7 +2140,10 @@
           <mxGeometry x="-3160" y="-1640" width="270" height="100" as="geometry" />
         </mxCell>
         <mxCell id="8DQ1GMw1Qk0WIiFYgqin-2818" value="A dbfile record points to the location of data referenced in an associated input record (saved as container_id). An input record can be linked to multiple dbfile records as data can be saved on multiple servers with different machine ids. Every individual file does not need a dbfile record. Sometime it makes sense (e.g. in the case of climate files) to specify the base directory for the data under file_path and then a common prefix for the files.&amp;nbsp;&amp;nbsp;" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;fontFamily=Fira Code;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="-2800" y="-1670" width="340" height="100" as="geometry" />
+          <mxGeometry x="-2800" y="-1670" width="340" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="8DQ1GMw1Qk0WIiFYgqin-2819" value="It is optional to organize sites in to sitegroups." style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;fontFamily=Fira Code;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-3400" y="-1260" width="200" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
